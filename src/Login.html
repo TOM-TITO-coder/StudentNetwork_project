@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <div class="h-screen flex justify-center items-center">
+        <div class="w-[1440px] h-[1024px] border-2 flex relative">
+            <div class="w-[700px] h-full bg-[#0073B6]"></div>
+            <div class="w-[740px] h-full bg-[#BFDCF2]"></div>
+            <div class="w-[1332px] h-[863px] bg-white rounded-[30px] absolute left-[50px] bottom-[80px] flex">
+                <div class="w-[489px] h-full bg-[#E8F4FF] rounded-tl-[30px] rounded-bl-[30px]">
+                    <div><img class="w-[281px] ml-5 pt-10" src="../assets/images/Logo.png" alt=""></div>
+                    <div><img class="w-[487px] h-[516px] mt-[240px]" src="../assets/images/studentImage.png" alt=""></div>
+                </div>
+                <div>
+                    <div class="ml-[100px] mt-[250px]">
+                        <h1 class="font-[roboto] text-[50px] text-[#0f7bba] font-bold tracking-[3px]">Welcome</h1>
+                        <div><input class="p-8 bg-[#d9eaf4] border-[#60ABD1] border-[1px] w-[619px] h-[100px] text-[30px] text-[#1C82BE] rounded-[5px] tracking-[3px]" type="text" placeholder="Email or Phone"></div>
+                        <div><input class="mt-[40px] p-8 bg-[#d9eaf4] border-[#60ABD1] border-[1px] w-[619px] h-[100px] text-[30px] text-[#1C82BE] rounded-[5px] tracking-[3px]" type="text" placeholder="Password"></div>
+                        <div class="mt-[20px] text-[#1C82BE] text-[20px] font-bold tracking-[3px]"><p>Forgot Password?</p></div>
+                        <div>
+                            <button onclick="window.location.href = 'Register.html'" class="mt-[40px] w-[224px] h-[72px] bg-[#1C82BE] text-white text-[20px] font-bold tracking-[3px] rounded-[5px]">Login</button>
+                            <button onclick="window.location.href = 'Register.html'" class="ml-[50px] w-[224px] h-[72px] border-2 rounded-[5px] border-[#60ABD1] text-[20px] font-bold tracking-[3px] text-[#60ABD1]">Register</button>
+                        </div>
+                        <div class="tracking-[3px] mt-[60px] text-[#1C82BE]">
+                             <p>Copyright Policy Privacy Policy send Feedback</p>
+                             <p>User Agreement   Cookie Policy Community Guideline</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
 </body>
 </html>
